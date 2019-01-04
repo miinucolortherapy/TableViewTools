@@ -1,3 +1,5 @@
+# !!! FORKED JUST TO FIX COCOAPODS ISSUE
+# !!! WILL BE REMOVED ASAP
 # TableViewTools
 
 [![Platform](https://img.shields.io/cocoapods/p/TableViewTools.svg?style=flat)](http://cocoapods.org/pods/TableViewTools)
