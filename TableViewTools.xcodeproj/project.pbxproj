@@ -43,7 +43,6 @@
 		0A4063761E125640005EF407 /* TableViewManager+UITableViewDataSourcePrefetching.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TableViewManager+UITableViewDataSourcePrefetching.swift"; sourceTree = "<group>"; };
 		0A4063771E125640005EF407 /* TableViewManager+UITableViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "TableViewManager+UITableViewDelegate.swift"; sourceTree = "<group>"; };
 		0A4063781E125640005EF407 /* TableViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewManager.swift; sourceTree = "<group>"; };
-		0A4063891E125652005EF407 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +59,6 @@
 		0A40634B1E12558C005EF407 = {
 			isa = PBXGroup;
 			children = (
-				0A4063891E125652005EF407 /* Info.plist */,
 				0A4063601E125640005EF407 /* Sources */,
 				0A4063561E12558C005EF407 /* Products */,
 			);
@@ -182,7 +180,6 @@
 				0A4063511E12558C005EF407 /* Frameworks */,
 				0A4063521E12558C005EF407 /* Headers */,
 				0A4063531E12558C005EF407 /* Resources */,
-				0632700B1E84C02C002DD5B9 /* SwiftLint */,
 			);
 			buildRules = (
 			);
@@ -236,23 +233,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		0632700B1E84C02C002DD5B9 /* SwiftLint */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = SwiftLint;
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nexit 1\nfi";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0A4063501E12558C005EF407 /* Sources */ = {
